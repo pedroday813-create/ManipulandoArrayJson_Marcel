@@ -6,7 +6,7 @@
 
 //Simulando o resultado de uma API 
 var listaDeEstados = { 
-    pais: 'Brasil',
+    pais: 'Sao Paulo',
     estados: 
     [
         {
@@ -2605,6 +2605,7 @@ var listaDeEstados = {
             cidades:[
                 {
                    "nome":"Rio Branco",
+                  
                    "id":"67"
                 },
                 {
@@ -22499,3 +22500,7 @@ var listaDeEstados = {
         }
     ]
 }
+
+module.exports = {
+   listaDeEstados
+};
